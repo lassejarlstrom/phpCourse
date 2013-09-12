@@ -1,0 +1,26 @@
+Christiansen & Essenbæk
+
+Projekt vedr: Løn-Indberetningssystem.
+
+Det nyværende 'system':
+
+Christiansen og Essenbæk håndterer deres lønindberetning vha. timeseddler. 
+Hver enkelt medarbejder udfylder en fysisk timeseddel (Ugenligt? Dagligt?) og 
+afleverer den herefter til byggelederen?, der efterfølgende (Ugentlig? dagligt?) 
+kører seddlerne til lønkontoret. Herefter udregnes antal timer m.m manuelt, og 
+tastes ind i deres eksisterende lønsystem.
+
+Det ønskede system:
+
+Vi forestiller os et system hvor medarbejderen kan udfylde sine timeseddler 
+gennem sin browser eller en mobil-applikation. Det kræver at medarbejderen får
+et login, samt en tilhørende "profil", med overskuelige statistikker/diagrammer
+over arbejdstider. Evt en nyhedssektion m.m. 
+På den måde slipper man for at udfylde papirer, kører alle timeseddler til løn
+kontoret og lønkontoret slipper for at lægge alle timerne sammen på lommeregner. 
+
+Udover lønsystemet udfylder byggelederen (Ugentlig? Dagligt?) en arbejdsrapport, 
+på byggepladsen indeholdende vejr, status, milestone (m.m).
+Denne arbejdsrapport skal udfyldes på en tablet istedet. Samt synkronisere med 
+databasen hver gang der er wifi forbindelse. (Arbejdspladsen har for nyligt 
+investeret i disse, men model kendes ikke).
