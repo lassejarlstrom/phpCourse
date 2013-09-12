@@ -53,29 +53,25 @@ footer {
 }
 
 #container {
-	padding-left:15%;
-	width:60%;	
-	margin:5px auto;
+    width:55%;
+	margin:0 auto;
 }
 
-#form , .article {
+#form {
 	background-color:white;
 	color:black;
-	width:23%;
 	border: solid black 4px;
-	padding-left:21px;
 	display:block;
 	float:left;
+	padding: 15px;
 }
 #form .username {
 	background-color:black;
-	margin-right:100px;
 	color:yellow;
 }
 #form .comment {
 	background-color:black;
 	color:yellow;
-	margin-right:100px;
 }
 
 #form .button {
@@ -92,7 +88,19 @@ footer {
 }
 
 .article {
-	width:45%;
-	margin-bottom:0.5em;
-	margin-left:0.5em;	
+	background-color:white;
+	color:black;
+	border: solid black 4px;
+	display:block;
+	float:left;
+	width:25em;
+	margin: 0 2em;
 }
+
+.article .comment {
+	border: 2px solid;
+	padding-left:1em;
+	padding-top:1em;
+    padding-bottom:5em;
+}
+
