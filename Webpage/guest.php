@@ -72,7 +72,7 @@
 			</div>
 		</div>
 		<footer>
-			<p>Copyright &copy; Lasse Street Jarlstrøm DAT12V KEA &trade; 2013</p>
+			<p>Copyright &copy; Lasse Street Jarlstrøm DAT12V  <a href=http://www.kea.dk/da/uddannelser/erhvervsakademiuddannelser/datamatiker/ style="color:blue">KEA</a> &trade; 2013</p>
 		</footer>		
 	</body>
 </html>

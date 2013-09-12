@@ -33,22 +33,18 @@
 			} else $end=($page+1)*6;
 
 			for ($i = $start; $i < $end; $i++) {
-				echo "<a href=''><img src='$files[$i]' width='400' heigth='320'></a>";
+				echo "<a href=$files[$i]><img src='$files[$i]' width='400' heigth='320'></a>";
 			}	
 			
-			echo "<br>";
 			echo "<br>";
 			echo "<br>";
 			for ($i = 1; $i < $pages+1; $i++) {
 				$ref = "?page=$i";
 				echo "<li><a href=$ref>$i</a></li>";
 			}
-
+			echo "<li><a href='images/maage/ulydig-maage.jpg'>Pr&oslash;v lykken!</a></li>";
 			
-?>
-			<div class="pagiator">
-				
-			</div>
+?>          
 			</div>
 
 

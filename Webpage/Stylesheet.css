@@ -63,6 +63,8 @@ footer {
 	display:block;
 	float:left;
 	padding: 15px;
+	box-shadow: 10px 10px 5px black;
+
 }
 #form .username {
 	background-color:black;
@@ -87,6 +89,7 @@ footer {
 }
 
 .article {
+
 	display:block;
 	float:left;
 	width:25em;
@@ -95,6 +98,7 @@ footer {
 }
 
 .article .comment {
+	box-shadow: 10px 10px 5px black;
 	background-color:white;
 	color:black;
 	border: solid black 4px;
