@@ -10,9 +10,9 @@
 
 		<nav>
 		<ul>
-			<li><a href="">G&aelig;stebog</a></li>
+			<li><a href="guest.php">G&aelig;stebog</a></li>
 
-			<li><a href="">Palindrome</a></li>
+			<li><a href="gallery.php">Gallery</a></li>
 		</ul>
 		</nav>
 

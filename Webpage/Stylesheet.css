@@ -19,8 +19,7 @@ nav ul {
 	border-bottom: solid black 3px;
 	background-color:#333;
 	text-align:center;
-	left:0;
-	right:0;
+
 }
 
 nav ul li { 
@@ -108,3 +107,36 @@ footer {
 color:#332;
 }
 
+.gallery {
+text-align:center;
+background-color:black;
+padding-top:3em;
+padding-bottom:4em;
+border-radius:1em;
+}
+
+.gallery img {
+   height:20em;
+   width:30em;
+   border: 2px solid black;
+}
+.gallery img:hover {
+   height:20.15em;
+   width:30.15em;
+   
+}
+
+.gallery li {
+	display:inline;
+	}
+.gallery li a {
+	padding: 1em;
+	background-color:#333;
+	color:yellow;
+	border-radius:9px;
+}
+
+.gallery li a:hover {
+		border-radius:13px;
+
+}
