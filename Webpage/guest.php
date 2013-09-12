@@ -26,26 +26,45 @@
 					<p><input type="submit" name="submit" value="Send" class="button"></p>
 				</form>
 			</div>
+
 			<?php 
 			include("comment.php");
+			// kun hvis username feltet er 'sat' og ikke tomt
 			if (isset($_POST['username'])){ 
-				$postUsername = $_POST['username'];
-				$postComment = $_POST['comment'];
-				$newComment = new guestComment($postUsername,$postComment);
-				$writeThis 	= serialize($newComment);
-				file_put_contents('comments.txt',$writeThis."\n",FILE_APPEND);
+				$username = $_POST['username'];
+				$comment = $_POST['comment'];
+
+				// fjern alle \n erstat med html
+				$comment = str_replace("\n", '<br>',$comment);
+
+				// lav kommentar objekt, herefter serialisér
+				$commentObj = new guestComment($username,$comment);
+				$serializedString 	= serialize($commentObj);
+
+				// skriv til fil
+				file_put_contents('comments.txt',$serializedString."\n",FILE_APPEND);
+
+				// gør at refresh ikke dubplicere 'entries'
+				header("Location: http://localhost/phpCourse/Webpage/guest.php");
+				exit();
 				}
 			?>
 			<div class="article">
-				<?php 
+				<?php
+				// for hver new line lav ny 'row', i array
 				$array = explode("\n", file_get_contents('comments.txt'));
+
+				// loop gennem array
 				foreach (array_reverse($array) as $key => $value){
+
+					// unserialize objekt og echo html, samt tjekt om a
+					// er et objekt efter unserialized
 					$a = unserialize($value);
 					if (is_object($a)) {
 						echo '<div class="comment">';
 						echo $a->getDate(). "<br>";
-						echo "Username: ". $a->getUsername(). "<br>";
-						echo  $a->getComment(). "<br>";
+						echo "<u>Username:</u><br> ". $a->getUsername(). "<br>";
+						echo "<u>Comment:</u><br> ". $a->getComment(). "<br>";
 						echo '</div>';
 					}	
 				}	
