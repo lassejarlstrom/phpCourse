@@ -6,7 +6,9 @@
 		<link rel="stylesheet" href="Stylesheet.css" type="text/css">
 	</head>
 	<body>
-		<h1>( Lasse Jarlstr&oslash;m )</h1>
+	
+	
+			<h1><a href=index.php style='text-decoration:none; color:black;'>( Lasse Jarlstr&oslash;m )</a></h1>
 
 		<nav>
 		<ul>
@@ -44,6 +46,7 @@ if (isset($_POST['username'])){
 	// skriv til fil
 file_put_contents('comments.txt',$serializedString."\n",FILE_APPEND);
 header("Location: http://localhost/phpCourse/Webpage/guest.php");
+
 }?>
 			<div class="article">
 <?php

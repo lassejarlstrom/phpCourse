@@ -6,7 +6,8 @@
 		<link rel="stylesheet" href="Stylesheet.css" type="text/css">
 	</head>
 	<body>
-		<h1>( Mine Wallpapers )</h1>
+
+			<h1><a href=index.php style='text-decoration:none; color:black;'>( Lasse Jarlstr&oslash;m )</a></h1>
 
 		<nav>
 		<ul>
