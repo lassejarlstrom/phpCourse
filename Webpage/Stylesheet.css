@@ -66,15 +66,18 @@ footer {
 	float:left;
 	padding: 15px;
 	box-shadow: 10px 10px 5px black;
+	width:20%;
 
 }
 #form .username {
 	background-color:black;
 	color:yellow;
+	width:100%;
 }
 #form .comment {
 	background-color:black;
 	color:yellow;
+	width:100%;
 }
 
 #form .button {
