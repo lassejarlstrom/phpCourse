@@ -27,48 +27,44 @@
 				</form>
 			</div>
 
-			<?php 
-			include("comment.php");
-			// kun hvis username feltet er 'sat' og ikke tomt
-			if (isset($_POST['username'])){ 
-				$username = $_POST['username'];
-				$comment = $_POST['comment'];
+<?php 
+include("comment.php");
+// kun hvis username feltet er 'sat' og ikke tomt
+if (isset($_POST['username'])){ 
+	$username = $_POST['username'];
+	$comment = $_POST['comment'];
 
-				// fjern alle \n erstat med html
-				$comment = str_replace("\n", '<br>',$comment);
+	// fjern alle \n erstat med html
+	$comment = str_replace("\n", '<br>',$comment);
 
-				// lav kommentar objekt, herefter serialisér
-				$commentObj = new guestComment($username,$comment);
-				$serializedString 	= serialize($commentObj);
+	// lav kommentar objekt, herefter serialisér
+	$commentObj = new guestComment($username,$comment);
+	$serializedString 	= serialize($commentObj);
 
-				// skriv til fil
-				file_put_contents('comments.txt',$serializedString."\n",FILE_APPEND);
-
-				// gør at refresh ikke dubplicere 'entries'
-				header("Location: http://localhost/phpCourse/Webpage/guest.php");
-				exit();
-				}
-			?>
+	// skriv til fil
+file_put_contents('comments.txt',$serializedString."\n",FILE_APPEND);
+header("Location: http://localhost/phpCourse/Webpage/guest.php");
+}?>
 			<div class="article">
-				<?php
-				// for hver new line lav ny 'row', i array
-				$array = explode("\n", file_get_contents('comments.txt'));
+<?php
+// for hver new line lav ny 'row', i array
+$array = explode("\n", file_get_contents('comments.txt'));
 
-				// loop gennem array
-				foreach (array_reverse($array) as $key => $value){
+// loop gennem array
+foreach (array_reverse($array) as $key => $value){
 
-					// unserialize objekt og echo html, samt tjekt om a
-					// er et objekt efter unserialized
-					$a = unserialize($value);
-					if (is_object($a)) {
-						echo '<div class="comment">';
-						echo $a->getDate(). "<br>";
-						echo "<u>Username:</u><br> ". $a->getUsername(). "<br>";
-						echo "<u>Comment:</u><br> ". $a->getComment(). "<br>";
-						echo '</div>';
-					}	
-				}	
-				?>	
+	// unserialize objekt og echo html, samt tjekt om a
+	// er et objekt efter unserialized
+	$a = unserialize($value);
+	if (is_object($a)) {
+		echo '<div class="comment">';
+		echo $a->getDate(). "<br>";
+		echo "<u>Username:</u><br> ". $a->getUsername(). "<br>";
+		echo "<u>Comment:</u><br> ". $a->getComment(). "<br>";
+		echo '</div>';
+	}	
+}	
+?>	
 			</div>
 		</div>
 		<footer>

@@ -8,7 +8,7 @@ class guestComment {
 		function __construct($username,$comment){
 		$this->username	= $username;
 		$this->comment	= $comment;
-		$this->date		= date('jS F Y h:i:s A'); 
+		$this->date		= date('d-M-Y H:i'); 
 	}
 
 /*

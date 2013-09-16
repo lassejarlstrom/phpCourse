@@ -25,7 +25,7 @@
 			$length = count($files);
 			$howMany= 6;
 			$pages 	= ceil($length / $howMany);
-			$page	= $current-1;	
+			$page	= abs($current-1);	
 			$start = $page*$howMany;
 
 			if($start+$howMany>$length) {
@@ -36,14 +36,14 @@
 				echo "<a href=$files[$i]><img src='$files[$i]' width='400' heigth='320'></a>";
 			}	
 			
-			echo "<br>";
-			echo "<br>";
+			echo "<div class=pagiator>";
 			for ($i = 1; $i < $pages+1; $i++) {
 				$ref = "?page=$i";
 				echo "<li><a href=$ref>$i</a></li>";
 			}
 			echo "<li><a href='images/maage/ulydig-maage.jpg'>Pr&oslash;v lykken!</a></li>";
-			
+			echo "</div class=pagiator>";
+
 ?>          
 			</div>
 
