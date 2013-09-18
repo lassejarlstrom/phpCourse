@@ -32,7 +32,7 @@
 <?php 
 include("comment.php");
 // kun hvis username feltet er 'sat' og ikke tomt
-if (isset($_POST['username'])){ 
+if (isset($_POST['username']) && !empty($_POST['username'])){ 
 	$username = $_POST['username'];
 	$comment = $_POST['comment'];
 
