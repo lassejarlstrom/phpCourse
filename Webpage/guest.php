@@ -45,7 +45,7 @@ if (isset($_POST['username'])){
 
 	// skriv til fil
 file_put_contents('comments.txt',$serializedString."\n",FILE_APPEND);
-header("Location: http://localhost/phpCourse/Webpage/guest.php");
+header("Location: guest.php");
 
 }?>
 			<div class="article">
