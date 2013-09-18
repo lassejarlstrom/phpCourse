@@ -21,4 +21,5 @@ while ($token != false) {
 echo "<br><br>";
 $rString = "Jeg hedder mus og min hund hedder Ole";
 echo preg_match("/Lasse|Ole/",$rString);
+echo "hehe";
 ?>
