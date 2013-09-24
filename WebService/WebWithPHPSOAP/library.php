@@ -1,5 +1,5 @@
 <?php
-class Library extends SoapClient
+class Library
 {
 public function getDwarves() {
 $dwarves = array("Bashful", "Doc", "Dopey", "Grumpy", "Happy",

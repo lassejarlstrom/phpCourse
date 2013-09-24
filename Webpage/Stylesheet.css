@@ -58,6 +58,10 @@ footer {
 	margin:0 auto;
 }
 
+.mainclass {
+	margin:0 10em;
+}
+
 #form {
 	background-color:white;
 	color:black;
