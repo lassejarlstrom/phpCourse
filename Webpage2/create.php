@@ -2,12 +2,18 @@
 <script>	
 $(document).ready(function() { 
 		$("#username").blur(function() {
-			var username = 'sub='+$(this).val();
-			$.post('username.php',username,response);		
+			var username = 'username='+$(this).val();
+			$.post('jscheckvalid.php',username,response);		
 		}); 
-
 		function response(data) {
-			$('#resultsGoHere').html(data);
+			$('#usernameval').html(data).css('background', 'red');
+		}
+		$("#email").blur(function() {
+			var username2 = 'username='+$(this).val();
+			$.post('jscheckvalid.php',username2,response2);		
+		}); 
+		function response2(data) {
+			$('#emailval').html(data).css('background', 'red');
 		}
 });
 </script>
@@ -15,78 +21,66 @@ $(document).ready(function() {
 	<fieldset>
 		<legend>Create User</legend>
 		<p>
-			<label>Username:</label>
-			<input id="username" type='text' name='username' value="<?php echo $_POST['username'] ?>"/>
+			<label>Email:</label><br> 
+			<input id="email" type='email' name='email' 
+			value="<?php if(isset($_POST['email'])) 
+							echo $_POST['email'] ?>"/>
+			<div id="emailval"></div>
 		</p>
 		<p>
-			<label>Password:</label>
+			<label>Username:</label><br> 
+			<input id="username" type='text' name='username' 
+			value="<?php if(isset($_POST['username'])) 
+							echo $_POST['username'] ?>"/>
+			<div id="usernameval"></div>
+		</p>
+	
+		<p>
+			<label>Password:</label><br> 
 			<input type='password' name='password'/>
 		</p>
 		<p>
-			<label>Confirm Password:</label>
+			<label>Confirm Password:</label><br> 
 			<input type='password' name='password2'/>
 		</p>
 	</fieldset>
 <input type='submit' value='create' name='create'/>
 </form>
-<div id="resultsGoHere"></div>
 <?php 
 if (isset($_POST['create']) && $_POST['create'] == "create") {
+if (!empty($_POST['email']) && !empty($_POST['username']) 
+&& !empty($_POST['password']) && !empty($_POST['password2'])) {
 	
-	$dbhost = "localhost";
-	$dbuser = "root";
-	$dbpass = "kea";
-	$dbdb	= "devphase";
+	include('database.php');
 
-	//user input
-	$username = $_POST['username'];
-	$password = $_POST['password'];
-	$password2 = $_POST['password2'];
-	
-	// connect
-	$connection = mysqli_connect ( $dbhost, $dbuser, $dbpass , $dbdb );
-		if (mysqli_connect_errno()) {
-			die ("Database connection Failed");
-		}
-	
-	// tjeck username igen, hvis bruger ikke understoetter javascript
-	$usernameQuery = "SELECT username FROM userpass WHERE username = '$username' LIMIT 1";
-	$selectResult = mysqli_query($connection,$usernameQuery);
-	$row1 = mysqli_fetch_assoc($selectResult);
-	$match = $row1['username'];
-	
-	if (!$match) {
-		if(!empty($username)) {
-			if(!empty($password)) {
-				if($password == $password2) {
+	$email		= $_POST['email'];
+	$username 	= $_POST['username'];
+	$password 	= $_POST['password'];
+	$password2 	= $_POST['password2'];	
 
-					$salt = "Jonersej";
-
-					$hashed = crypt($password,$salt);
-					
-					$query = "INSERT INTO userpass(username,hashedPassword) VALUES ('$username','$hashed');";
-				
-					// result
-					$result = mysqli_query($connection,$query);
-
-					// query error
-					if (!$result) {
-						die ("Database query Failed");
-
-					}else {
-						header('Location: index.php');
-					}
+// validate input	
+	if (!database::checkEmail($email)) {
+		if(!database::checkUsername($username)) {	
+			if($password==$password2) {	
+				if(strlen($password)<5 ||
+				(!preg_match('/[A-Z]+[a-z]+/', $password)) && 
+				(!preg_match('/[0-9]+/', $password))) {
+					$error = "Password must be at least 5 characters and contain both letters and numbers";
+					// errors
 				} else {
-					echo "Passwords didn't match, Please try again";
-				}
-			} else {
-				echo "Please enter a password";
-			}
-		} else {
-			echo "Please enter a username";
-		}
-	} else 	{
-	echo "The username is already taken";
+					// create user
+					if(database::createUser($username,$password,$email)) {
+						// succes error
+						header('Location: index.php');
+					} else $error = "Database error";
+				} 
+			} else $error = "Passwords Doesnt Match, Please Try Again";
+		} else $error = "Username Already exists";
+	} else $error = "Email Already exists";
+
+	echo "<script>alert('$error');</script>";
+
+
 	}
 }
 ?>
