@@ -1,0 +1,83 @@
+O:12:"guestComment":3:{s:8:"username";s:4:"hehe";s:7:"comment";s:5:"heheh";s:4:"date";s:43:"Thursday 12th of September 2013 12:34:01 AM";}
+O:12:"guestComment":3:{s:8:"username";s:4:"hehe";s:7:"comment";s:5:"heheh";s:4:"date";s:43:"Thursday 12th of September 2013 12:36:16 AM";}
+O:12:"guestComment":3:{s:8:"username";s:11:"LasseStreet";s:7:"comment";s:12:"Fed side der";s:4:"date";s:43:"Thursday 12th of September 2013 12:39:35 AM";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:6:"asdasd";s:4:"date";s:31:"12th September 2013 12:29:55 PM";}
+O:12:"guestComment":3:{s:8:"username";s:6:"jojojo";s:7:"comment";s:3:"asd";s:4:"date";s:31:"12th September 2013 12:30:00 PM";}
+O:12:"guestComment":3:{s:8:"username";s:5:"jolle";s:7:"comment";s:5:"jolle";s:4:"date";s:31:"12th September 2013 12:44:08 PM";}
+O:12:"guestComment":3:{s:8:"username";s:5:"jolle";s:7:"comment";s:5:"jolle";s:4:"date";s:31:"12th September 2013 12:50:54 PM";}
+O:12:"guestComment":3:{s:8:"username";s:5:"jolle";s:7:"comment";s:5:"jolle";s:4:"date";s:31:"12th September 2013 12:52:50 PM";}
+O:12:"guestComment":3:{s:8:"username";s:5:"jolle";s:7:"comment";s:5:"jolle";s:4:"date";s:31:"12th September 2013 01:03:00 PM";}
+O:12:"guestComment":3:{s:8:"username";s:5:"sdfds";s:7:"comment";s:3:"sdf";s:4:"date";s:31:"12th September 2013 01:03:15 PM";}
+O:12:"guestComment":3:{s:8:"username";s:0:"";s:7:"comment";s:0:"";s:4:"date";s:31:"12th September 2013 02:57:32 PM";}
+O:12:"guestComment":3:{s:8:"username";s:0:"";s:7:"comment";s:0:"";s:4:"date";s:31:"12th September 2013 02:57:40 PM";}
+O:12:"guestComment":3:{s:8:"username";s:0:"";s:7:"comment";s:0:"";s:4:"date";s:31:"12th September 2013 02:58:46 PM";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:31:"12th September 2013 02:58:48 PM";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:31:"12th September 2013 02:58:56 PM";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:31:"12th September 2013 03:00:37 PM";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:31:"12th September 2013 03:00:39 PM";}
+O:12:"guestComment":3:{s:8:"username";s:4:"hehe";s:7:"comment";s:5:"Lasse";s:4:"date";s:31:"12th September 2013 03:01:17 PM";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:31:"12th September 2013 03:01:38 PM";}
+O:12:"guestComment":3:{s:8:"username";s:5:"Lasse";s:7:"comment";s:3:"Ole";s:4:"date";s:31:"12th September 2013 03:02:49 PM";}
+O:12:"guestComment":3:{s:8:"username";s:5:"Lasse";s:7:"comment";s:3:"Ole";s:4:"date";s:31:"12th September 2013 03:09:55 PM";}
+O:12:"guestComment":3:{s:8:"username";s:5:"Lasse";s:7:"comment";s:3:"Ole";s:4:"date";s:31:"12th September 2013 03:15:54 PM";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:31:"13th September 2013 09:04:33 AM";}
+O:12:"guestComment":3:{s:8:"username";s:3:"yey";s:7:"comment";s:3:"yey";s:4:"date";s:31:"13th September 2013 09:05:05 AM";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:6:"asddas";s:4:"date";s:31:"13th September 2013 09:29:43 AM";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:6:"asddas";s:4:"date";s:31:"13th September 2013 09:44:15 AM";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:6:"asddas";s:4:"date";s:31:"13th September 2013 09:48:17 AM";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:6:"asddas";s:4:"date";s:31:"13th September 2013 09:48:20 AM";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:6:"asddas";s:4:"date";s:31:"13th September 2013 10:02:26 AM";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:6:"asddas";s:4:"date";s:31:"13th September 2013 10:02:38 AM";}
+O:12:"guestComment":3:{s:8:"username";s:5:"uhuhu";s:7:"comment";s:8:"uhuhuhuh";s:4:"date";s:31:"13th September 2013 10:02:55 AM";}
+O:12:"guestComment":3:{s:8:"username";s:5:"uhuhu";s:7:"comment";s:8:"uhuhuhuh";s:4:"date";s:31:"13th September 2013 10:03:00 AM";}
+O:12:"guestComment":3:{s:8:"username";s:5:"uhuhu";s:7:"comment";s:8:"uhuhuhuh";s:4:"date";s:31:"13th September 2013 10:03:16 AM";}
+O:12:"guestComment":3:{s:8:"username";s:5:"uhuhu";s:7:"comment";s:8:"uhuhuhuh";s:4:"date";s:31:"13th September 2013 10:03:42 AM";}
+O:12:"guestComment":3:{s:8:"username";s:4:"Lsse";s:7:"comment";s:5:"Joohn";s:4:"date";s:31:"13th September 2013 10:03:51 AM";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:31:"13th September 2013 10:05:53 AM";}
+O:12:"guestComment":3:{s:8:"username";s:3:"sad";s:7:"comment";s:3:"asd";s:4:"date";s:31:"13th September 2013 11:02:11 AM";}
+O:12:"guestComment":3:{s:8:"username";s:3:"sad";s:7:"comment";s:3:"asd";s:4:"date";s:31:"13th September 2013 11:02:16 AM";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:31:"13th September 2013 11:02:52 AM";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:31:"13th September 2013 11:02:55 AM";}
+O:12:"guestComment":3:{s:8:"username";s:4:"jeje";s:7:"comment";s:6:"hehehe";s:4:"date";s:31:"13th September 2013 11:03:01 AM";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:31:"13th September 2013 11:09:48 AM";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:31:"13th September 2013 11:10:24 AM";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:31:"13th September 2013 11:10:26 AM";}
+O:12:"guestComment":3:{s:8:"username";N;s:7:"comment";s:0:"";s:4:"date";s:31:"13th September 2013 11:10:31 AM";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:17:"13-Sep-2013 12:21";}
+O:12:"guestComment":3:{s:8:"username";s:3:"hej";s:7:"comment";s:3:"hej";s:4:"date";s:17:"13-Sep-2013 12:36";}
+O:12:"guestComment":3:{s:8:"username";s:3:"hej";s:7:"comment";s:3:"hej";s:4:"date";s:17:"13-Sep-2013 12:39";}
+O:12:"guestComment":3:{s:8:"username";s:3:"hej";s:7:"comment";s:3:"hej";s:4:"date";s:17:"13-Sep-2013 12:40";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:6:"asdasd";s:4:"date";s:17:"13-Sep-2013 12:40";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:6:"asdasd";s:4:"date";s:17:"13-Sep-2013 12:40";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:6:"asdasd";s:4:"date";s:17:"13-Sep-2013 12:40";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:6:"asdasd";s:4:"date";s:17:"13-Sep-2013 12:40";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:6:"asdasd";s:4:"date";s:17:"13-Sep-2013 12:40";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:6:"asdasd";s:4:"date";s:17:"13-Sep-2013 12:41";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:8:"asd<br>";s:4:"date";s:17:"13-Sep-2013 12:41";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:17:"13-Sep-2013 12:41";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:17:"13-Sep-2013 12:41";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:17:"13-Sep-2013 12:42";}
+O:12:"guestComment":3:{s:8:"username";s:4:"sdss";s:7:"comment";s:6:"ssssss";s:4:"date";s:17:"13-Sep-2013 12:42";}
+O:12:"guestComment":3:{s:8:"username";s:4:"sdss";s:7:"comment";s:6:"ssssss";s:4:"date";s:17:"13-Sep-2013 12:42";}
+O:12:"guestComment":3:{s:8:"username";s:6:"ssssss";s:7:"comment";s:4:"ssss";s:4:"date";s:17:"13-Sep-2013 12:42";}
+O:12:"guestComment":3:{s:8:"username";s:6:"ssssss";s:7:"comment";s:4:"ssss";s:4:"date";s:17:"13-Sep-2013 12:44";}
+O:12:"guestComment":3:{s:8:"username";s:6:"wwwwww";s:7:"comment";s:7:"wwwwwww";s:4:"date";s:17:"13-Sep-2013 12:44";}
+O:12:"guestComment":3:{s:8:"username";s:6:"wwwwww";s:7:"comment";s:7:"wwwwwww";s:4:"date";s:17:"13-Sep-2013 12:44";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:17:"13-Sep-2013 12:44";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:17:"13-Sep-2013 12:44";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:17:"13-Sep-2013 12:44";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:17:"13-Sep-2013 12:45";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:17:"13-Sep-2013 12:45";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:17:"13-Sep-2013 12:45";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:17:"13-Sep-2013 12:45";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:17:"13-Sep-2013 12:45";}
+O:12:"guestComment":3:{s:8:"username";s:3:"www";s:7:"comment";s:4:"wwww";s:4:"date";s:17:"13-Sep-2013 12:45";}
+O:12:"guestComment":3:{s:8:"username";s:3:"www";s:7:"comment";s:4:"wwww";s:4:"date";s:17:"13-Sep-2013 12:46";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:17:"13-Sep-2013 12:46";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:17:"13-Sep-2013 12:46";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:17:"13-Sep-2013 12:46";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:17:"13-Sep-2013 12:49";}
+O:12:"guestComment":3:{s:8:"username";s:5:"weqwe";s:7:"comment";s:11:"qweqwe<br>";s:4:"date";s:17:"13-Sep-2013 12:49";}
+O:12:"guestComment":3:{s:8:"username";s:4:"jiji";s:7:"comment";s:10:"ijijijijij";s:4:"date";s:17:"14-Sep-2013 21:02";}
+O:12:"guestComment":3:{s:8:"username";s:5:"Lasse";s:7:"comment";s:14:"Fed hjemmeside";s:4:"date";s:17:"16-Sep-2013 15:23";}
+O:12:"guestComment":3:{s:8:"username";s:3:"asd";s:7:"comment";s:3:"asd";s:4:"date";s:17:"18-Sep-2013 09:50";}

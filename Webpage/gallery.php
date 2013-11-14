@@ -9,18 +9,14 @@
 	// hvis page = 0, bliver $current = -1, 
 	// derfor abs omkring
 	$current=abs($_GET['page']-1);
-
 	// bruger glob metoder til at hente alle 
 	// filer med endelse jpg png
 	$files 	= glob("images/{*.jpg,*.png}",GLOB_BRACE);
-
 	// tael antal billeder
 	$length = count($files);
 
 	// hvor mange billeder per side
 	$howMany= 6;
-
-
 	//find start index for billede array  
 	$start = $current*$howMany;
 	
@@ -30,9 +26,8 @@
 	// Indlæs resten 
 	if($start+$howMany>$length) {
 		$end = $length;	
-	} else {
-		$end=($current+1)*6;
-	}
+	}else {
+		$end=($current+1)*6;	}
 	
 	// indlæs billeder fra start indx til slut indx
 	for ($i = $start; $i < $end; $i++) {
