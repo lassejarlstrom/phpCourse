@@ -1,5 +1,5 @@
 <?php 
-include 'header.html';
+//include 'header.html';
 ?>
 <form action='' method="post">
 	<fieldset>
@@ -73,5 +73,5 @@ if(isset($_POST['submit']) && $_POST['submit'] == "submit"){
 }
 ?>
 <?php 
-include	'footer.html';
+//include	'footer.html';
 ?>
