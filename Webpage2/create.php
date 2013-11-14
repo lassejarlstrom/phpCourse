@@ -70,8 +70,12 @@ if (!empty($_POST['email']) && !empty($_POST['username'])
 				} else {
 					// create user
 					if(database::createUser($username,$password,$email)) {
-						// succes error
-						header('Location: index.php');
+	// succes error
+						session_start();
+						$_SESSION['username'] = $username;
+						
+						echo "<script>alert('User Created!');window.location = '/phpCourse/Webpage2/index.php';</script>";
+					
 					} else $error = "Database error";
 				} 
 			} else $error = "Passwords Doesnt Match, Please Try Again";

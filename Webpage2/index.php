@@ -1,5 +1,6 @@
 <?php 
 include 'header.html';
+session_start();
 ?>
 <form action='' method="post">
 	<fieldset>
@@ -7,11 +8,13 @@ include 'header.html';
 		
 		<p>
 			<label>Username or Email:</label><br> 
-			<input type="text" name="username" class="container" />
+			<input type="text" name="username"
+				value="<?php if(isset($_SESSION['username'])) 
+							echo $_SESSION['username'] ?>"/>
 		</p>
 		<p>
 			<label>Password:</label><br> 
-			<input type="password" name="password" class="container" />
+			<input type="password" name="password" />
 		</p>
 
 	</fieldset>
