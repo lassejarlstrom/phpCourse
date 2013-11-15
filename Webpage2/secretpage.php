@@ -1,6 +1,8 @@
 <?php 
 include 'header.html';
+
 session_start();
+
 if ($_SESSION['granted'] != true) {
 header('Location: index.php');
 }
@@ -19,3 +21,6 @@ if(isset($_GET['logout'])) {
 	session_destroy();
 	header('Location: index.php');
 }
+
+
+include 'footer.html';

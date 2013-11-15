@@ -3,7 +3,7 @@ include 'header.html';
 ?>
     <h1>BUY STUFF.COM</h1>
     
-    <form action="PdfMaker.php">
+    <form action="pdf.php">
         <table>
         <tr>
             <td><label for="drink">Item 1</label><br/></td>
@@ -54,3 +54,7 @@ include 'header.html';
         </table>
             <input type="submit" value="order"/>
     </form>
+
+<?php
+include 'footer.html';
+?>

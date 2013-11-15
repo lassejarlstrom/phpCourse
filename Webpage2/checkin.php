@@ -1,8 +1,5 @@
-
 <?php
-
 include 'header.html';
-
 ?>
 
     <form method="get">
@@ -31,3 +28,4 @@ if (isset($_GET) && Count($_GET) >0) {
 	}
 	echo "</ol><br/>Your Price is: " .(Count($_GET) * 1000). "$";
 }
+include 'footer.html';

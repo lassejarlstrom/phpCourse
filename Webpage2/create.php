@@ -1,3 +1,6 @@
+<?php
+include 'header.html';
+?>
 <script src="jquery.js"></script>
 <script>	
 $(document).ready(function() { 
@@ -87,4 +90,6 @@ if (!empty($_POST['email']) && !empty($_POST['username'])
 
 	}
 }
+
+include 'footer.html';
 ?>

@@ -18,7 +18,6 @@ echo "<li>". $city. "</li>";
 }
 echo "</ul>";
 
-
 echo "<h1>Unordered Sorted List, and extra cities</h1><ul>";
 array_push($cities, "Los Angeles", "Calcutta", "Osaka", "Beijing");
 sort($cities);
@@ -26,3 +25,5 @@ foreach($cities as $city) {
 echo "<li>". $city. "</li>";
 }
 echo "</ul>";
+
+include 'footer.html';
